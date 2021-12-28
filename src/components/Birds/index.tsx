@@ -60,10 +60,10 @@ export default function Birdies() {
               <p>Select and Add Bird to Redux Store</p>
               <Field select id="birdName" name="birdName" value={values.birdName} component={TextField} 
                 onChange={(e: { target: { value: React.SetStateAction<string>; }; }) => handleOnSelect(e.target.value)}>
-                <MenuItem value="111" key="111">111</MenuItem>
-                <MenuItem value="222" key="222">222</MenuItem>
-                <MenuItem value="333" key="333">333</MenuItem>
-                <MenuItem value="444" key="444">444</MenuItem>
+                <MenuItem value="BlueJay" key="BlueJay">BlueJay</MenuItem>
+                <MenuItem value="Finch" key="Finch">Finch</MenuItem>
+                <MenuItem value="Robin" key="Robin">Robin</MenuItem>
+                <MenuItem value="Sparrow" key="Sparrow">Sparrow</MenuItem>
               </Field>
             </label>
             <div>
